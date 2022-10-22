@@ -1,0 +1,9 @@
+.list {
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  li div span span {
+    border: 4px solid #121212;
+  }
+}

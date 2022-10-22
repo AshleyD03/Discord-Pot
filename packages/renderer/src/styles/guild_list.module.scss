@@ -1,0 +1,71 @@
+.guild-list {
+  display: block;
+
+  h2 {
+    margin-top: 0em;
+    margin-bottom: .5em;
+  }
+}
+
+.icon-list {
+  height: 4em;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: block;
+}
+
+.icon-option {
+  height: 3em;
+  aspect-ratio: 1/1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #36393F;
+  color: #DCDDDE;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: .5em .5em .25em .5em;
+  cursor: pointer;
+  transition: box-shadow 100ms linear;
+  font-weight: bold;
+  overflow: hidden;
+  user-select: none;
+  &:hover {
+    box-shadow: 0px 0px 0px 4px rgba(59, 165, 93, .4);
+  }
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 1em;
+  border-radius: 100%;
+}
+
+.guild-info {
+  h3 {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    button {
+      margin-left: auto;
+    }
+    margin-bottom: 0rem;
+  }
+}
+
+.stats {
+  font-weight: lighter;
+  h4 {
+    margin: .25em 0em 0em 0em;
+  }
+  h5 {
+    margin: .25em 0em .25em 0em;
+  }
+}

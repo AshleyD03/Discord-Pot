@@ -1,0 +1,43 @@
+.login-box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  h2 {
+    margin-bottom: 0em;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  a {
+    &:link {
+      color: rgb(144, 202, 249)
+    }
+    &:hover {
+      color: rgb(62, 168, 255)
+    }
+    &:visited, &:active {
+      color: rgb(23, 147, 248)
+    }
+  }
+}
+.description {
+  margin-bottom: 2em;
+}
+
+.error-message {
+  color: rgb(253, 82, 82);
+  margin-bottom: 0em;
+}
+
+.bottom-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & div:first-child {
+    margin-right: auto;
+  }
+}

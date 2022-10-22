@@ -1,0 +1,20 @@
+$box-color: #202020;
+
+.box-container {
+  width: calc(100% - 15vw);
+  overflow-y: hidden;
+  padding: 1em;
+  margin-top: 1.5em;
+  background: $box-color;
+  color: #fff;
+  border-radius: .5em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1), height 250ms linear;
+  transform: scale(0);
+}
+
+.box {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
