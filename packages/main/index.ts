@@ -76,6 +76,3 @@ app.on('activate', () => {
     createWindow()
   }
 })
-
-// Load Bot
-// ODM1ODY2NjEwNjkwMjkzNzYw.G2M4Ec.Gr9BLDnykDLb1VnhLURDNwh-m-63tlUoKMyXfc
